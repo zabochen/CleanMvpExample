@@ -6,25 +6,54 @@
     "verbPastSimpleTranscription": "ə'rəuz",
     "verbPastParticiple": "arisen",
     "verbPastParticipleTranscription": "ə'rɪz(ə)n",
-    "verbTranslation": "возникать, появляться"
+    "verbTranslation": "возникать, появляться",
+    "verbImage": "verbImages/arise.jpg",
+    "verbExamples": [
+      {
+        "example": "A new difficulty has arisen - Возникло новое затруднение"
+      },
+      {
+        "example": "Doubts arose in his mind - У него возникли сомнения"
+      },
+      {
+        "example": "Additional expenses arose from your delay - Ваша задержка привела к дополнительным расходам"
+      }
+    ]
   },
   {
     "verb": "awake",
+    "verbTranscription": "ə'weɪk",
     "verbPastSimple": "awoke",
+    "verbPastSimpleTranscription": "ə'wəuk",
     "verbPastParticiple": "awoken",
-    "verbTranslation": "проснуться"
+    "verbPastParticipleTranscription": "ə'wəukən",
+    "verbTranslation": "будить, проснуться",
+    "verbImage": "verbImages/awake.jpg",
+    "verbExamples": [
+      {
+        "example": "The noise from the street awoke me - Меня разбудил шум с улицы"
+      },
+      {
+        "example": "To awake smb - Будить кого-либо"
+      },
+      {
+        "example": "To awake from / out of sleep - Пробудиться ото сна"
+      }
+    ]
   },
   {
     "verb": "be",
     "verbPastSimple": "was/were",
     "verbPastParticiple": "been",
-    "verbTranslation": "быть"
+    "verbTranslation": "быть",
+    "verbImage": "verbImages/be.jpg"
   },
   {
     "verb": "bear",
     "verbPastSimple": "bore",
     "verbPastParticiple": "borne",
-    "verbTranslation": "носить, нести"
+    "verbTranslation": "носить, нести",
+    "verbImage": "verbImages/bear.jpg"
   },
   {
     "verbTranslation": "бить",

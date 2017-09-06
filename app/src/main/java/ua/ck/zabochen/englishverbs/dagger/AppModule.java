@@ -10,6 +10,8 @@ import ua.ck.zabochen.englishverbs.database.RealmHelper;
 import ua.ck.zabochen.englishverbs.model.VerbList;
 import ua.ck.zabochen.englishverbs.view.verb.VerbFragment;
 import ua.ck.zabochen.englishverbs.view.verb.VerbPresenter;
+import ua.ck.zabochen.englishverbs.view.verbfull.VerbFullActivity;
+import ua.ck.zabochen.englishverbs.view.verbfull.VerbFullPresenter;
 
 @Module
 public class AppModule {
@@ -48,6 +50,18 @@ public class AppModule {
     @Singleton
     public VerbPresenter provideVerbPresenter() {
         return new VerbPresenter();
+    }
+
+    @Provides
+    @Singleton
+    public VerbFullActivity provideVerbFullActivity() {
+        return new VerbFullActivity();
+    }
+
+    @Provides
+    @Singleton
+    public VerbFullPresenter provideVerbFullPresenter() {
+        return new VerbFullPresenter();
     }
 
 }

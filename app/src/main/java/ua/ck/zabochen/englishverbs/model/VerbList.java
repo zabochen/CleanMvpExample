@@ -2,6 +2,8 @@ package ua.ck.zabochen.englishverbs.model;
 
 import java.util.ArrayList;
 
+import ua.ck.zabochen.englishverbs.model.realm.Verb;
+
 public class VerbList {
 
     private ArrayList<Verb> verbList = new ArrayList<>();

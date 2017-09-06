@@ -3,8 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginBottom="4dp"
-    android:layout_marginTop="4dp"
+    android:layout_marginTop="8dp"
     android:clickable="true"
     android:focusable="true"
     app:cardCornerRadius="0dp">
@@ -22,7 +21,8 @@
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
             android:layout_margin="10dp"
-            android:src="@drawable/arise" />
+            android:src="@drawable/arise"
+            android:transitionName="@string/transition_image" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -47,7 +47,6 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_marginStart="10dp"
-                    android:text="verb"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
@@ -58,21 +57,20 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_marginStart="10dp"
-                    android:text="[transcription]"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
 
-            <!-- Example -->
+            <!-- Verb Example -->
             <TextView
+                android:id="@+id/adapterVerb_verbExample"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginStart="10dp"
-                android:maxLines="2"
-                android:text="A new difficulty has arisen. — Возникло новое затруднение. A quarrel arose. — Вспыхнула ссора. Doubts arose in his mind. — У него возникли сомнения." />
+                android:maxLines="2" />
 
         </LinearLayout>
 

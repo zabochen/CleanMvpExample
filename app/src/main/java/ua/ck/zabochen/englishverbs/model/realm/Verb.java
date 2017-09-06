@@ -1,5 +1,6 @@
-package ua.ck.zabochen.englishverbs.model;
+package ua.ck.zabochen.englishverbs.model.realm;
 
+import io.realm.RealmList;
 import io.realm.RealmObject;
 import io.realm.annotations.PrimaryKey;
 
@@ -17,13 +18,14 @@ public class Verb extends RealmObject {
 
     private String verbTranslation;
 
+    private String verbImage;
+
+    private RealmList<VerbExample> verbExamples;
+
     public Verb() {
     }
 
-    public Verb(String verb, String verbTranscription,
-                String verbPastSimple, String verbPastSimpleTranscription,
-                String verbPastParticiple, String verbPastParticipleTranscription,
-                String verbTranslation) {
+    public Verb(String verb, String verbTranscription, String verbPastSimple, String verbPastSimpleTranscription, String verbPastParticiple, String verbPastParticipleTranscription, String verbTranslation, String verbImage, RealmList<VerbExample> verbExamples) {
         this.verb = verb;
         this.verbTranscription = verbTranscription;
         this.verbPastSimple = verbPastSimple;
@@ -31,6 +33,8 @@ public class Verb extends RealmObject {
         this.verbPastParticiple = verbPastParticiple;
         this.verbPastParticipleTranscription = verbPastParticipleTranscription;
         this.verbTranslation = verbTranslation;
+        this.verbImage = verbImage;
+        this.verbExamples = verbExamples;
     }
 
     public String getVerb() {
@@ -88,4 +92,21 @@ public class Verb extends RealmObject {
     public void setVerbTranslation(String verbTranslation) {
         this.verbTranslation = verbTranslation;
     }
+
+    public String getVerbImage() {
+        return verbImage;
+    }
+
+    public void setVerbImage(String verbImage) {
+        this.verbImage = verbImage;
+    }
+
+    public RealmList<VerbExample> getVerbExamples() {
+        return verbExamples;
+    }
+
+    public void setVerbExamples(RealmList<VerbExample> verbExamples) {
+        this.verbExamples = verbExamples;
+    }
+
 }

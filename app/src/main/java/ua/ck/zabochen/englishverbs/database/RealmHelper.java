@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 import io.realm.Realm;
 import io.realm.RealmResults;
-import ua.ck.zabochen.englishverbs.model.Verb;
+import ua.ck.zabochen.englishverbs.model.realm.Verb;
 import ua.ck.zabochen.englishverbs.mvp.interactor.Callback;
 
 public class RealmHelper {
@@ -32,7 +32,7 @@ public class RealmHelper {
             callback.onDatabaseSuccess();
         }, error -> {
             // Inflate error
-            callback.onDatabaseError();
+            callback.onDatabaseError(error);
         });
     }
 

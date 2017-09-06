@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">EnglishVerbs</string>
+
+    <!-- Transition Animation -->
+    <string name="transition_image">imageTransition</string>
+
 </resources>

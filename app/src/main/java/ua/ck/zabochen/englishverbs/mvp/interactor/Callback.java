@@ -4,7 +4,7 @@ public interface Callback {
 
     interface DatabaseCallback {
         void onDatabaseSuccess();
-        void onDatabaseError();
+        void onDatabaseError(Throwable error);
     }
 
 }

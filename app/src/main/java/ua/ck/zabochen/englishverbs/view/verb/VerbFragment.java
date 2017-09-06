@@ -19,8 +19,8 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import ua.ck.zabochen.englishverbs.MainApp;
 import ua.ck.zabochen.englishverbs.R;
-import ua.ck.zabochen.englishverbs.model.Verb;
 import ua.ck.zabochen.englishverbs.model.VerbList;
+import ua.ck.zabochen.englishverbs.model.realm.Verb;
 import ua.ck.zabochen.englishverbs.utils.listener.RecyclerViewItemTouchListener;
 
 public class VerbFragment extends Fragment implements VerbContract.View {
@@ -62,7 +62,7 @@ public class VerbFragment extends Fragment implements VerbContract.View {
                 new RecyclerViewItemTouchListener.ClickListener() {
                     @Override
                     public void onClick(View view, int position) {
-
+                        mVerbPresenter.adapterOnClick(getActivity(), view, position);
                     }
 
                     @Override
