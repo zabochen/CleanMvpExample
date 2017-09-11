@@ -10,4 +10,9 @@
     <!-- Toolbar -->
     <color name="toolbar_title">#ffffff</color>
 
+    <!-- Adapter Verb -->
+    <color name="adapter_verb">#4f4f4f</color>
+    <color name="adapter_verb_transcription">#4f4f4f</color>
+    <color name="adapter_verb_example">#818181</color>
+
 </resources>

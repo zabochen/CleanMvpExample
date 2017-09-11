@@ -72,6 +72,8 @@ public class VerbAdapter extends RecyclerView.Adapter<VerbAdapter.VerbViewHolder
             try {
                 if (verb.getVerbImage() != null) {
                     verbImage.setImageDrawable(Drawable.createFromStream(mContext.getAssets().open(verb.getVerbImage()), null));
+                } else {
+                    verbImage.setImageResource(R.drawable.no_image);
                 }
 
             } catch (IOException e) {

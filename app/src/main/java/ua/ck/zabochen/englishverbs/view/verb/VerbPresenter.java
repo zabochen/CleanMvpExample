@@ -48,7 +48,6 @@ public class VerbPresenter extends BasePresenter<VerbContract.View> implements V
 
     @Override
     public void adapterOnClick(Activity activity, View view, int position) {
-
         ImageView imageView = view.findViewById(R.id.adapterVerb_image);
         String imageTransitionName = activity.getString(R.string.transition_image);
         Intent intent = new Intent(activity, VerbFullActivity.class)
