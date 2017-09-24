@@ -8,6 +8,7 @@ import dagger.Module;
 import dagger.Provides;
 import ua.ck.zabochen.englishverbs.database.RealmHelper;
 import ua.ck.zabochen.englishverbs.model.VerbList;
+import ua.ck.zabochen.englishverbs.notification.NotificationHelper;
 import ua.ck.zabochen.englishverbs.view.verb.VerbFragment;
 import ua.ck.zabochen.englishverbs.view.verb.VerbPresenter;
 import ua.ck.zabochen.englishverbs.view.verbfull.VerbFullActivity;
@@ -28,12 +29,21 @@ public class AppModule {
         return mContext;
     }
 
+    // Realm
     @Provides
     @Singleton
     public RealmHelper provideRealmHelper(Context context) {
         return new RealmHelper(context);
     }
 
+    // Notification
+    @Provides
+    @Singleton
+    public NotificationHelper provideNotificationHelper(Context context) {
+        return new NotificationHelper(context);
+    }
+
+    // VerbList Singleton
     @Provides
     @Singleton
     public VerbList provideVerbList() {

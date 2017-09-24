@@ -3,7 +3,6 @@ package ua.ck.zabochen.englishverbs.view.verb;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -22,18 +21,16 @@ import ua.ck.zabochen.englishverbs.R;
 import ua.ck.zabochen.englishverbs.model.VerbList;
 import ua.ck.zabochen.englishverbs.model.realm.Verb;
 import ua.ck.zabochen.englishverbs.utils.listener.RecyclerViewItemTouchListener;
+import ua.ck.zabochen.englishverbs.view.base.BaseFragment;
 
-public class VerbFragment extends Fragment implements VerbContract.View {
+public class VerbFragment extends BaseFragment implements VerbContract.View {
 
     private static final String TAG = VerbFragment.class.getSimpleName();
 
-    @Inject
-    VerbPresenter mVerbPresenter;
-    @Inject
-    VerbList mVerbList;
+    @Inject VerbPresenter mVerbPresenter;
+    @Inject VerbList mVerbList;
 
-    @BindView(R.id.fragmentVerb_recyclerView)
-    RecyclerView mVerbRecyclerView;
+    @BindView(R.id.fragmentVerb_recyclerView) RecyclerView mVerbRecyclerView;
 
     @Override
     public void onAttach(Context context) {

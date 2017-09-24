@@ -3,6 +3,7 @@ package ua.ck.zabochen.englishverbs.dagger;
 import javax.inject.Singleton;
 
 import dagger.Component;
+import ua.ck.zabochen.englishverbs.notification.NotificationHelper;
 import ua.ck.zabochen.englishverbs.view.main.MainActivity;
 import ua.ck.zabochen.englishverbs.view.verb.VerbAdapter;
 import ua.ck.zabochen.englishverbs.view.verb.VerbFragment;

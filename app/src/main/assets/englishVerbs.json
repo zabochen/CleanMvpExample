@@ -43,7 +43,7 @@
   },
   {
     "verb": "be",
-    "verbPastSimple": "was/were",
+    "verbPastSimple": "was, were",
     "verbPastParticiple": "been",
     "verbTranslation": "быть",
     "verbImage": "verbImages/be.jpg"
@@ -59,13 +59,15 @@
     "verbTranslation": "бить",
     "verb": "beat",
     "verbPastParticiple": "beat",
-    "verbPastSimple": "beaten"
+    "verbPastSimple": "beaten",
+    "verbImage": "verbImages/beat.jpg"
   },
   {
     "verbTranslation": "становиться",
     "verb": "become",
     "verbPastParticiple": "became",
-    "verbPastSimple": "become"
+    "verbPastSimple": "become",
+    "verbImage": "verbImages/become.jpg"
   },
   {
     "verbTranslation": "начинать",
@@ -768,5 +770,719 @@
     "verbPastSimple": "spat, spit",
     "verbPastParticiple": "spat, spit",
     "verbTranslation": "плевать"
+  },
+  {
+    "verb": "split",
+    "verbTranscription": "splɪt",
+    "verbPastSimple": "split",
+    "verbPastSimpleTranscription": "splɪt",
+    "verbPastParticiple": "split",
+    "verbPastParticipleTranscription": "splɪt",
+    "verbTranslation": "раскалывать, разбивать, разрушать, отделять, расщеплять",
+    "verbImage": "",
+    "verbExamples": [
+      {
+        "example": "My head is splitting - У меня голова раскалывается (от боли)"
+      },
+      {
+        "example": "We split up into teams - Мы разбились на команды"
+      },
+      {
+        "example": "The band split two years ago - Группа распалась два года назад"
+      }
+    ]
+  },
+  {
+    "verb": "spoil",
+    "verbTranscription": "",
+    "verbPastSimple": "spoilt",
+    "verbPastSimpleTranscription": "",
+    "verbPastParticiple": "spoilt",
+    "verbPastParticipleTranscription": "",
+    "verbTranslation": "портить, наносить ущерб",
+    "verbImage": "",
+    "verbExamples": [
+      {
+        "example": "The milk was beginning to spoil - Молоко начинало портиться"
+      },
+      {
+        "example": "The camping trip was spoiled by bad weather - Поход был испорчен плохой погодой"
+      },
+      {
+        "example": "Don't let one mistake spoil your day - Не позволяйте единственной ошибке портить вам весь день"
+      }
+    ]
+  },
+  {
+    "verb": "spread",
+    "verbTranscription": "",
+    "verbPastSimple": "spread",
+    "verbPastSimpleTranscription": "",
+    "verbPastParticiple": "spread",
+    "verbPastParticipleTranscription": "",
+    "verbTranslation": "расстилать, распространять",
+    "verbImage": "",
+    "verbExamples": [
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      }
+    ]
+  },
+  {
+    "verb": "spring",
+    "verbTranscription": "",
+    "verbPastSimple": "sprang",
+    "verbPastSimpleTranscription": "",
+    "verbPastParticiple": "sprung",
+    "verbPastParticipleTranscription": "",
+    "verbTranslation": "прыгать",
+    "verbImage": "",
+    "verbExamples": [
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      }
+    ]
+  },
+  {
+    "verb": "stand",
+    "verbTranscription": "",
+    "verbPastSimple": "stood",
+    "verbPastSimpleTranscription": "",
+    "verbPastParticiple": "stood",
+    "verbPastParticipleTranscription": "",
+    "verbTranslation": "стоять",
+    "verbImage": "",
+    "verbExamples": [
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      }
+    ]
+  },
+  {
+    "verb": "steal",
+    "verbTranscription": "",
+    "verbPastSimple": "stole",
+    "verbPastSimpleTranscription": "",
+    "verbPastParticiple": "stolen",
+    "verbPastParticipleTranscription": "",
+    "verbTranslation": "красть",
+    "verbImage": "",
+    "verbExamples": [
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      }
+    ]
+  },
+  {
+    "verb": "stick",
+    "verbTranscription": "",
+    "verbPastSimple": "stuck",
+    "verbPastSimpleTranscription": "",
+    "verbPastParticiple": "stuck",
+    "verbPastParticipleTranscription": "",
+    "verbTranslation": "колоть",
+    "verbImage": "",
+    "verbExamples": [
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      }
+    ]
+  },
+  {
+    "verb": "sting",
+    "verbTranscription": "",
+    "verbPastSimple": "stung",
+    "verbPastSimpleTranscription": "",
+    "verbPastParticiple": "stung",
+    "verbPastParticipleTranscription": "",
+    "verbTranslation": "жалить",
+    "verbImage": "",
+    "verbExamples": [
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      }
+    ]
+  },
+  {
+    "verb": "stink",
+    "verbTranscription": "",
+    "verbPastSimple": "stank",
+    "verbPastSimpleTranscription": "",
+    "verbPastParticiple": "stunk",
+    "verbPastParticipleTranscription": "",
+    "verbTranslation": "вонять",
+    "verbImage": "",
+    "verbExamples": [
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      }
+    ]
+  },
+  {
+    "verb": "strike",
+    "verbTranscription": "",
+    "verbPastSimple": "struck",
+    "verbPastSimpleTranscription": "",
+    "verbPastParticiple": "struck",
+    "verbPastParticipleTranscription": "",
+    "verbTranslation": "ударить",
+    "verbImage": "",
+    "verbExamples": [
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      }
+    ]
+  },
+  {
+    "verb": "strive",
+    "verbTranscription": "",
+    "verbPastSimple": "strove",
+    "verbPastSimpleTranscription": "",
+    "verbPastParticiple": "striven",
+    "verbPastParticipleTranscription": "",
+    "verbTranslation": "стремиться",
+    "verbImage": "",
+    "verbExamples": [
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      }
+    ]
+  },
+  {
+    "verb": "swear",
+    "verbTranscription": "",
+    "verbPastSimple": "swore",
+    "verbPastSimpleTranscription": "",
+    "verbPastParticiple": "sworn",
+    "verbPastParticipleTranscription": "",
+    "verbTranslation": "клясться, божиться",
+    "verbImage": "",
+    "verbExamples": [
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      }
+    ]
+  },
+  {
+    "verb": "sweep",
+    "verbTranscription": "",
+    "verbPastSimple": "swept",
+    "verbPastSimpleTranscription": "",
+    "verbPastParticiple": "swept",
+    "verbPastParticipleTranscription": "",
+    "verbTranslation": "выметать",
+    "verbImage": "",
+    "verbExamples": [
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      }
+    ]
+  },
+  {
+    "verb": "swell",
+    "verbTranscription": "",
+    "verbPastSimple": "swelled",
+    "verbPastSimpleTranscription": "",
+    "verbPastParticiple": "swollen",
+    "verbPastParticipleTranscription": "",
+    "verbTranslation": "разбухать",
+    "verbImage": "",
+    "verbExamples": [
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      }
+    ]
+  },
+  {
+    "verb": "swim",
+    "verbTranscription": "",
+    "verbPastSimple": "swam",
+    "verbPastSimpleTranscription": "",
+    "verbPastParticiple": "swum",
+    "verbPastParticipleTranscription": "",
+    "verbTranslation": "плавать",
+    "verbImage": "",
+    "verbExamples": [
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      }
+    ]
+  },
+  {
+    "verb": "swing",
+    "verbTranscription": "",
+    "verbPastSimple": "swung",
+    "verbPastSimpleTranscription": "",
+    "verbPastParticiple": "swung",
+    "verbPastParticipleTranscription": "",
+    "verbTranslation": "качать",
+    "verbImage": "",
+    "verbExamples": [
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      }
+    ]
+  },
+  {
+    "verb": "take",
+    "verbTranscription": "",
+    "verbPastSimple": "took",
+    "verbPastSimpleTranscription": "",
+    "verbPastParticiple": "taken",
+    "verbPastParticipleTranscription": "",
+    "verbTranslation": "брать, взять",
+    "verbImage": "",
+    "verbExamples": [
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      }
+    ]
+  },
+  {
+    "verb": "teach",
+    "verbTranscription": "",
+    "verbPastSimple": "taught",
+    "verbPastSimpleTranscription": "",
+    "verbPastParticiple": "taught",
+    "verbPastParticipleTranscription": "",
+    "verbTranslation": "учить",
+    "verbImage": "",
+    "verbExamples": [
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      }
+    ]
+  },
+  {
+    "verb": "tear",
+    "verbTranscription": "",
+    "verbPastSimple": "tore",
+    "verbPastSimpleTranscription": "",
+    "verbPastParticiple": "torn",
+    "verbPastParticipleTranscription": "",
+    "verbTranslation": "рвать",
+    "verbImage": "",
+    "verbExamples": [
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      }
+    ]
+  },
+  {
+    "verb": "tell",
+    "verbTranscription": "",
+    "verbPastSimple": "told",
+    "verbPastSimpleTranscription": "",
+    "verbPastParticiple": "told",
+    "verbPastParticipleTranscription": "",
+    "verbTranslation": "рассказывать",
+    "verbImage": "",
+    "verbExamples": [
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      }
+    ]
+  },
+  {
+    "verb": "think",
+    "verbTranscription": "",
+    "verbPastSimple": "thought",
+    "verbPastSimpleTranscription": "",
+    "verbPastParticiple": "thought",
+    "verbPastParticipleTranscription": "",
+    "verbTranslation": "думать",
+    "verbImage": "",
+    "verbExamples": [
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      }
+    ]
+  },
+  {
+    "verb": "throw",
+    "verbTranscription": "",
+    "verbPastSimple": "threw",
+    "verbPastSimpleTranscription": "",
+    "verbPastParticiple": "thrown",
+    "verbPastParticipleTranscription": "",
+    "verbTranslation": "бросать",
+    "verbImage": "",
+    "verbExamples": [
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      }
+    ]
+  },
+  {
+    "verb": "thrust",
+    "verbTranscription": "",
+    "verbPastSimple": "thrust",
+    "verbPastSimpleTranscription": "",
+    "verbPastParticiple": "thrust",
+    "verbPastParticipleTranscription": "",
+    "verbTranslation": "толкать",
+    "verbImage": "",
+    "verbExamples": [
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      }
+    ]
+  },
+  {
+    "verb": "tread",
+    "verbTranscription": "",
+    "verbPastSimple": "trod",
+    "verbPastSimpleTranscription": "",
+    "verbPastParticiple": "trodden",
+    "verbPastParticipleTranscription": "",
+    "verbTranslation": "ступать, шагать",
+    "verbImage": "",
+    "verbExamples": [
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      }
+    ]
+  },
+  {
+    "verb": "understand",
+    "verbTranscription": "",
+    "verbPastSimple": "understood",
+    "verbPastSimpleTranscription": "",
+    "verbPastParticiple": "understood",
+    "verbPastParticipleTranscription": "",
+    "verbTranslation": "понимать",
+    "verbImage": "",
+    "verbExamples": [
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      }
+    ]
+  },
+  {
+    "verb": "wake",
+    "verbTranscription": "",
+    "verbPastSimple": "woke",
+    "verbPastSimpleTranscription": "",
+    "verbPastParticiple": "woken",
+    "verbPastParticipleTranscription": "",
+    "verbTranslation": "просыпаться",
+    "verbImage": "",
+    "verbExamples": [
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      }
+    ]
+  },
+  {
+    "verb": "wear",
+    "verbTranscription": "",
+    "verbPastSimple": "wore",
+    "verbPastSimpleTranscription": "",
+    "verbPastParticiple": "worn",
+    "verbPastParticipleTranscription": "",
+    "verbTranslation": "носить (одежда)",
+    "verbImage": "",
+    "verbExamples": [
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      }
+    ]
+  },
+  {
+    "verb": "weave",
+    "verbTranscription": "",
+    "verbPastSimple": "wove",
+    "verbPastSimpleTranscription": "",
+    "verbPastParticiple": "woven",
+    "verbPastParticipleTranscription": "",
+    "verbTranslation": "плести, вплетать",
+    "verbImage": "",
+    "verbExamples": [
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      }
+    ]
+  },
+  {
+    "verb": "weep",
+    "verbTranscription": "",
+    "verbPastSimple": "wept",
+    "verbPastSimpleTranscription": "",
+    "verbPastParticiple": "wept",
+    "verbPastParticipleTranscription": "",
+    "verbTranslation": "плакать",
+    "verbImage": "",
+    "verbExamples": [
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      }
+    ]
+  },
+  {
+    "verb": "wet",
+    "verbTranscription": "",
+    "verbPastSimple": "wet",
+    "verbPastSimpleTranscription": "",
+    "verbPastParticiple": "wet",
+    "verbPastParticipleTranscription": "",
+    "verbTranslation": "мочить",
+    "verbImage": "",
+    "verbExamples": [
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      }
+    ]
+  },
+  {
+    "verb": "win",
+    "verbTranscription": "",
+    "verbPastSimple": "won",
+    "verbPastSimpleTranscription": "",
+    "verbPastParticiple": "won",
+    "verbPastParticipleTranscription": "",
+    "verbTranslation": "выигрывать",
+    "verbImage": "",
+    "verbExamples": [
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      }
+    ]
+  },
+  {
+    "verb": "wind",
+    "verbTranscription": "",
+    "verbPastSimple": "wound",
+    "verbPastSimpleTranscription": "",
+    "verbPastParticiple": "wound",
+    "verbPastParticipleTranscription": "",
+    "verbTranslation": "извиваться",
+    "verbImage": "",
+    "verbExamples": [
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      }
+    ]
+  },
+  {
+    "verb": "wring",
+    "verbTranscription": "",
+    "verbPastSimple": "wrung",
+    "verbPastSimpleTranscription": "",
+    "verbPastParticiple": "wrung",
+    "verbPastParticipleTranscription": "",
+    "verbTranslation": "сжимать, выжимать",
+    "verbImage": "",
+    "verbExamples": [
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      }
+    ]
+  },
+  {
+    "verb": "write",
+    "verbTranscription": "",
+    "verbPastSimple": "wrote",
+    "verbPastSimpleTranscription": "",
+    "verbPastParticiple": "written",
+    "verbPastParticipleTranscription": "",
+    "verbTranslation": "писать",
+    "verbImage": "",
+    "verbExamples": [
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      },
+      {
+        "example": ""
+      }
+    ]
   }
 ]

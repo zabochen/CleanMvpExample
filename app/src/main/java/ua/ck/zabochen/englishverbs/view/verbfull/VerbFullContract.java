@@ -12,5 +12,6 @@ public class VerbFullContract {
 
     public interface Presenter extends MvpPresenter<View> {
         void verbPosition(int position);
+        void createNotification(int position);
     }
 }

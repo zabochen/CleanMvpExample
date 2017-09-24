@@ -1,6 +1,7 @@
 package ua.ck.zabochen.englishverbs.database;
 
 import android.content.Context;
+import android.util.Log;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -30,20 +31,32 @@ public class RealmHelper {
         }, () -> {
             // Inflate success
             callback.onDatabaseSuccess();
+            Log.i(TAG, "inflateDatabase: True");
         }, error -> {
             // Inflate error
             callback.onDatabaseError(error);
+            Log.i(TAG, "inflateDatabase: False");
         });
+
     }
 
     public ArrayList<Verb> getVerbList() {
 
-        RealmResults<Verb> realmResults = Realm.getDefaultInstance()
+        Realm realmInstance = Realm.getDefaultInstance();
+
+        RealmResults<Verb> realmResults = realmInstance
                 .where(Verb.class)
                 .findAll();
 
         ArrayList<Verb> verbList = new ArrayList<>();
         verbList.addAll(realmResults);
+
+
+        // Close RealmInstance
+        if (!realmInstance.isClosed()) {
+            realmInstance.close();
+            Log.i(TAG, "getVerbList: Get VerbList & Close Realm");
+        }
 
         return verbList;
     }

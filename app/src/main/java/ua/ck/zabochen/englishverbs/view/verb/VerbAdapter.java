@@ -1,7 +1,7 @@
 package ua.ck.zabochen.englishverbs.view.verb;
 
 import android.content.Context;
-import android.graphics.drawable.Drawable;
+import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,7 +9,6 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import java.io.IOException;
 import java.util.ArrayList;
 
 import javax.inject.Inject;
@@ -17,6 +16,7 @@ import javax.inject.Inject;
 import ua.ck.zabochen.englishverbs.MainApp;
 import ua.ck.zabochen.englishverbs.R;
 import ua.ck.zabochen.englishverbs.model.realm.Verb;
+import ua.ck.zabochen.englishverbs.utils.Tools;
 
 public class VerbAdapter extends RecyclerView.Adapter<VerbAdapter.VerbViewHolder> {
 
@@ -56,6 +56,7 @@ public class VerbAdapter extends RecyclerView.Adapter<VerbAdapter.VerbViewHolder
         private TextView verb;
         private TextView verbTranscription;
         private TextView verbExample;
+        private RoundedBitmapDrawable noImage;
 
         public VerbViewHolder(Context context, View itemView) {
             super(itemView);
@@ -64,20 +65,16 @@ public class VerbAdapter extends RecyclerView.Adapter<VerbAdapter.VerbViewHolder
             this.verb = itemView.findViewById(R.id.adapterVerb_verb);
             this.verbTranscription = itemView.findViewById(R.id.adapterVerb_verbTranscription);
             this.verbExample = itemView.findViewById(R.id.adapterVerb_verbExample);
+            this.noImage = Tools.getRoundedImageFromResources(context, R.drawable.no_image);
         }
 
         void bind(Verb verb) {
 
             // Verb Image
-            try {
-                if (verb.getVerbImage() != null) {
-                    verbImage.setImageDrawable(Drawable.createFromStream(mContext.getAssets().open(verb.getVerbImage()), null));
-                } else {
-                    verbImage.setImageResource(R.drawable.no_image);
-                }
-
-            } catch (IOException e) {
-                e.printStackTrace();
+            if (verb.getVerbImage() != null) {
+                verbImage.setImageDrawable(Tools.getRoundedImageFromAssets(mContext, verb.getVerbImage()));
+            } else {
+                verbImage.setImageDrawable(noImage);
             }
 
             // Verb

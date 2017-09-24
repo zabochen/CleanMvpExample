@@ -5,10 +5,12 @@ import javax.inject.Inject;
 import ua.ck.zabochen.englishverbs.MainApp;
 import ua.ck.zabochen.englishverbs.database.RealmHelper;
 import ua.ck.zabochen.englishverbs.mvp.presenter.BasePresenter;
+import ua.ck.zabochen.englishverbs.notification.NotificationHelper;
 
 public class VerbFullPresenter extends BasePresenter<VerbFullContract.View> implements VerbFullContract.Presenter {
 
-    @Inject RealmHelper realmHelper;
+    @Inject RealmHelper mRealmHelper;
+    @Inject NotificationHelper mNotificationHelper;
 
     public VerbFullPresenter() {
         MainApp.getAppComponent().inject(this);
@@ -21,6 +23,15 @@ public class VerbFullPresenter extends BasePresenter<VerbFullContract.View> impl
 
     @Override
     public void verbPosition(int position) {
-        getView().updateUi(realmHelper.getVerbList().get(position));
+        getView().updateUi(mRealmHelper.getVerbList().get(position));
     }
+
+    @Override
+    public void createNotification(int position) {
+        mNotificationHelper.createNotification(
+                position,
+                mRealmHelper.getVerbList().get(position)
+        );
+    }
+
 }

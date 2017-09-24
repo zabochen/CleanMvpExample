@@ -20,7 +20,7 @@
         android:layout_height="match_parent"
         android:layout_marginTop="?attr/actionBarSize">
 
-        <de.hdodenhof.circleimageview.CircleImageView
+        <ImageView
             android:id="@+id/activityVerbFull_imageView_verbImage"
             android:layout_width="180dp"
             android:layout_height="180dp"
@@ -29,12 +29,54 @@
             android:layout_marginTop="20dp"
             android:transitionName="@string/transition_image" />
 
+        <!-- CardView - Verb Translation -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/activityVerbFull_cardView_verbTranslation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/activityVerbFull_imageView_verbImage"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <!-- Verb Group -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical">
+
+                    <!-- Verb Translation -->
+                    <TextView
+                        android:id="@+id/activityVerbFull_textView_verbTranslation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dp"
+                        android:text="Verb Translation"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
         <!-- CardView - Verb -->
         <android.support.v7.widget.CardView
             android:id="@+id/activityVerbFull_cardView_verb"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/activityVerbFull_imageView_verbImage"
+            android:layout_below="@id/activityVerbFull_cardView_verbTranslation"
             android:layout_marginEnd="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
@@ -82,7 +124,8 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentRight="true"
-                    android:src="@drawable/ic_play_circle_filled_white_black_24dp" />
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_volume_up_black_24dp" />
 
             </RelativeLayout>
 
@@ -141,13 +184,88 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
                     android:clickable="true"
                     android:focusable="true"
-                    android:src="@drawable/ic_play_circle_filled_white_black_24dp" />
+                    android:src="@drawable/ic_volume_up_black_24dp"
+                    android:tint="@color/colorPrimary" />
 
             </RelativeLayout>
 
         </android.support.v7.widget.CardView>
+
+        <!-- CardView - VerbPastParticiple -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/activityVerbFull_cardView_verbPastParticiple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/activityVerbFull_cardView_verbPastSimple"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <!-- VerbPastParticiple Group -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical">
+
+                    <!-- VerbPastParticiple -->
+                    <TextView
+                        android:id="@+id/activityVerbFull_texView_verbPastParticiple"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dp"
+                        android:text="Verb Past Participle"
+                        android:textSize="14sp" />
+
+                    <!-- VerbPastParticiple Transcription -->
+                    <TextView
+                        android:id="@+id/activityVerbFull_textView_verbPastParticipleTranscription"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Verb Past Participle Transcription"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <!-- VerbPastParticiple Play -->
+                <ImageView
+                    android:id="@+id/activityVerbFull_imageView_verbPastParticiplePlay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:src="@drawable/ic_volume_up_black_24dp"
+                    android:tint="@color/colorPrimary" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <Button
+            android:id="@+id/activityVerbFull_button_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/activityVerbFull_cardView_verbPastParticiple"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:padding="20dp"
+            android:text="Notification" />
 
     </RelativeLayout>
 
